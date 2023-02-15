@@ -27,9 +27,6 @@ function generateMarkdown(data) {
   ## Test 
   ${data.test}
 
-  ## Choose your License! 
-  This project is license under ${data.license}
-
   ## If you are contributing, please provide your email address. 
   ${data.email}
 
@@ -37,7 +34,7 @@ function generateMarkdown(data) {
   ${data.test}
 
   ## Questions 
-  If you have any questions about this readme generator, please don't email ${data.email}. Don't go to my github either... https://github.com/${data.github}.
+  If there are any questions or concerns about this readme generator, please email ${data.email} or https://github.com/${data.github}.
 
   ## License
 ${data.license} https://img.shields.io/badge/license-${data.license}-green.svg
