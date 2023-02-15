@@ -12,39 +12,39 @@ const questions = () => {
         },
         {
           type: 'input',
-          message: 'Provide a description of your application.',
           name: 'description',
-        },
+          message: 'Description of application.',
+         },
         {
           type: 'input',
-          message: 'How does one install this readme generator?',
           name: 'installation',
+          message: 'How does one install this readme generator?',
         },
         {
           type: 'input',
           name: 'usage',
-          message: 'How does one use this application?',
+          message: 'How do you use this application?',
         },
         {
           type: 'input',
           name: 'test',
-          message: 'How does one test this readme generator?',
+          message: 'How do you test this readme generator?',
         },
         {
         type: 'checkbox',
-        message: 'Choose your License!',
         name: 'license',
+        message: 'Choose a License if needed.',
         choices: ['Cocoapods', 'Apache License 2.0', 'GNU General Public License v3.0', 'MIT License', 'Crates.io'],
         },
         {
         type: 'input',
-        message: 'If you are a Contributer for this application, please provided your GitHub username.',
         name: 'github',
+        message: 'If you are a Contributer for this application, please provided your GitHub username.',
         },
         {
           type: 'input',
-          message: 'If you have any questions email me at.',
-            name: 'email',
+          name: 'email',
+          message: 'For any questions reach out through email at.',
             },
       ])};
 
