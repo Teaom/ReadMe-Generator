@@ -13,10 +13,9 @@ function generateMarkdown(data) {
   * [Installation](#installation)
   * [Usage](#usage)
   * [Tests](#tests)
-  * [License](#license)
   * [Contributing](#contributing)
- 
   * [Questions](#questions)
+  * [License](#license)
   
   ## How does one install this readme generator? 
   ${data.installation}
